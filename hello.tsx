@@ -1,11 +1,13 @@
-import * as React from 'react'
+import * as React from 'react';
+import {Fragment, Component} from 'react';
 
-class Hello extends React.Component {
-    render() {
-        return <div>
-            <h1>Hello React</h1>
-        </div>
-    }
+class Hello extends Component {
+  render() {
+    return <Fragment>
+      <h1>Hello React</h1>
+      <div>This is Fragment Demo</div>
+    </Fragment>
+  }
 }
 
 export default Hello
